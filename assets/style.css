@@ -118,6 +118,11 @@ div.container p.date {
 }
 
 .circle {
+  position:absolute;
+  z-index: 100;
+  top: -15px;
+  left: 48%;
+  transform: translateX(-50%);
   width: 37px;
   height: 37px;
   border-radius: 50px;
@@ -133,6 +138,23 @@ div.container p.date {
   align-items: center;
 
 }
+
+.square {
+  position: absolute;
+  width: 335px;
+  height: 101px;
+  background-color: #F2F2F2;
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.square p{
+  font-size: 13px;
+  text-align: center;
+}
+
 
 
 /*******************************      MEDIA       ***********************/
