@@ -1,0 +1,210 @@
+/* prefixed by https://autoprefixer.github.io (PostCSS: v7.0.26, autoprefixer: v9.7.3) */
+
+
+
+/***************         ******************************/
+html, body, h1, h2, h3, h4, h5, p, ul { 
+  margin: 0; 
+  padding: 0; 
+  } 
+
+body { 
+  font-family: 'Montserrat', sans-serif;
+  background: #ffff;
+  color: #333333;
+  font-size: 14px;
+  } 
+a img, :link img, :visited img { 
+  border: 0; 
+  }
+
+a{
+  color: #333333;
+  text-decoration: none;
+}
+div, header, section, p, a, img, body, html, input, textarea, footer, button{ 
+  -webkit-box-sizing: border-box; 
+          box-sizing: border-box;
+}
+
+.content-news p{
+  font-style: normal;
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 16px;
+  color: #333333;
+  padding-right: 90px;
+  padding-bottom: 20px;
+}
+
+img{
+  max-width: 100%;
+}
+*:focus{
+  outline: none;
+}
+.container.no-padding {
+  padding: 0;
+}
+
+h3 {
+  font-size: 22px;
+  font-weight: 700;
+  line-height: 25px;
+  color: #333333;
+  max-width: 415px;
+  margin-bottom: 10px;
+}
+
+div.container p.date {
+  font-size: 13px;
+  color: #333333;
+  opacity: 0.3;
+  font-weight: 700;
+  margin-bottom: 10px;
+  
+}
+
+.share {
+  font-size: 13px;
+  color: #333333;
+  opacity: 0.3;
+  padding-right: 50px;
+  font-weight: 700;
+}
+
+.icons-w {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  margin-top: 21px;
+  
+}
+
+.cards-news {
+  padding-bottom: 65px;
+}
+
+
+/**************************************
+***********Support*********************
+**************************************/
+
+
+.support-h {
+  font-weight: 800;
+  font-size: 26px;
+  font-style: normal;
+  color: #505050;
+  margin-bottom: 26px;
+}
+
+
+.support-c {
+  font-weight: 500;
+  font-size: 14px;
+  font-style: normal;
+  color: #333333;
+  margin-bottom: 30px;
+  max-width: 456px;
+}
+
+.support-f {
+  font-weight: 700;
+  font-style: 18px;
+  font-style: normal;
+  color: #333333;
+  margin-bottom: 30px;
+}
+
+.circle {
+  width: 37px;
+  height: 37px;
+  border-radius: 50px;
+  background-color: #000080;
+  text-align: center;
+  color: #fff;
+  font-style: 15px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 123.4%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+
+
+/*******************************      MEDIA       ***********************/
+
+/*******************************      LG       ***********************/
+
+@media screen and (max-width: 1200px){
+  .container {
+    width: 992px;
+}
+.icons-w {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  margin-top: 21px;
+  margin-bottom: 22px;
+}
+
+}
+
+
+/*******************************      MD       ***********************/
+
+@media screen and (max-width: 992px){
+  .container {
+    width: 768px;
+}
+
+p {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 16px;
+    color: #333333;
+
+
+}
+
+.cards-news {
+  padding-bottom: 65px;
+  display: flex;
+  justify-content: start;
+  /* max-width: 100%; */
+}
+
+}
+/*******************************      SM       ***********************/
+
+@media screen and (max-width: 768px){
+  .container {
+    width: 600px;
+}
+
+}
+
+/*******************************      XS       ***********************/
+
+@media screen and (max-width: 600px){
+  .container {
+    width: 420px;
+}
+
+}
+
+
+@media screen and (max-width: 421px){
+  .container {
+    width: 100%;
+}
+
+}
+
+.d-none{
+  display: none;
+}
