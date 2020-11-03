@@ -90,6 +90,10 @@ div.container p.date {
 ***********Support*********************
 **************************************/
 
+.support-elements {
+margin-bottom: 25px;
+display: flex;
+}
 
 .support-h {
   font-weight: 800;
@@ -140,7 +144,7 @@ div.container p.date {
 }
 
 .square {
-  position: absolute;
+  position: relative;
   width: 335px;
   height: 101px;
   background-color: #F2F2F2;
@@ -215,6 +219,12 @@ p {
 @media screen and (max-width: 600px){
   .container {
     width: 420px;
+}
+
+.content-news p {
+
+  padding-right: 0;
+
 }
 
 }
