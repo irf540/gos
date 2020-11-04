@@ -194,8 +194,7 @@ display: flex;
   font-weight: 700;
   font-style: normal;
   font-size: 13px;
-  color: #333333;
-  opacity: 0.3;
+  color: #C2C2C2;
   margin-bottom: 10px;
   
 }
@@ -204,9 +203,8 @@ display: flex;
   font-weight: 700;
   font-style: normal;
   font-size: 13px;
-  color: #333333;
-  opacity: 0.3;
-  margin-top: 50px;
+  color: #C2C2C2;
+  margin-top: 15px;
   margin-bottom: 10px;
 
 
@@ -229,17 +227,44 @@ display: flex;
   margin-left: 10px;
 }
 
+.gostdoc-ru{
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 25px;
+  color: #333333;
+  width: 191px;
+}
+
+.gostdoc-ru::before {
+  content: url(../assets/img/russ1.png);
+}
+
+.gostdoc-eng {
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 25px;
+  color: #333333;
+  width: 191px;
+}
+
+.gostdoc-eng::before {
+  content: url(../assets/img/usa1.png);
+}
+
 .doctype-doc {
   font-weight: 700;
   font-style: normal;
   font-size: 16px;
   color: #333333;
+  margin-bottom: 10px;
+  display: flex;
 }
 
 .doctype-con {
   font-weight: 400;
   font-style: normal;
   font-size: 14px;
+  width: 516px;
 }
 
 .print-doc{
@@ -249,7 +274,14 @@ font-size: 16px;
 color: #212121;
 opacity: 0.5;
 margin-right: 90px;
+text-decoration: none;
 }
+
+.print-doc:hover{
+  text-decoration: none;
+}
+
+
 
 .price-doc {
   font-weight: 700;
@@ -258,6 +290,8 @@ margin-right: 90px;
   color: #000080;
   margin-top: 30px;
 }
+
+
 
 
 .backet-doc {
@@ -271,6 +305,13 @@ margin-right: 90px;
   font-size: 14px;
   color: #fff;
   margin-top: 30px;
+}
+
+.hr-doc {
+  width: 80%;
+  height: 1px;
+  background: #000080;
+  opacity: 0.3;
 }
 /*******************************      MEDIA       ***********************/
 
@@ -323,6 +364,19 @@ p {
     width: 600px;
 }
 
+
+.doctype-doc{
+  flex-wrap: wrap;
+}
+
+.price-doc {
+  margin-top: 10px;
+}
+
+.print-doc {
+margin-right: 35px;
+}
+
 }
 
 /*******************************      XS       ***********************/
@@ -336,6 +390,11 @@ p {
 
   padding-right: 0;
 
+}
+
+
+.status-doc {
+  margin-top: 14px;
 }
 
 }
