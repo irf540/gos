@@ -187,6 +187,7 @@ display: flex;
   font-style: normal;
   font-size: 13px;
   color: #61B421;
+  margin-bottom: 10px;
 }
 
 .info-doc {
@@ -194,14 +195,36 @@ display: flex;
   font-style: normal;
   font-size: 13px;
   color: #ebebeb;
+  margin-bottom: 10px;
   
 }
+
+.info-doc-name {
+  font-weight: 700;
+  font-style: normal;
+  font-size: 13px;
+  color: #ebebeb;
+  margin-top: 50px;
+  margin-bottom: 10px;
+
+
+}
+
+.date-doc1{
+  font-weight: 600;
+  font-style: normal;
+  font-size: 13px;
+  color: #333333 !important;
+  margin-left: 60px;
+}
+
 
 .date-doc {
   font-weight: 600;
   font-style: normal;
   font-size: 13px;
   color: #333333 !important;
+  margin-left: 10px;
 }
 
 
