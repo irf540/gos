@@ -237,6 +237,7 @@ display: flex;
 
 .gostdoc-ru::before {
   content: url(../assets/img/russ1.png);
+  margin-right: 5px;
 }
 
 .gostdoc-eng {
@@ -249,6 +250,7 @@ display: flex;
 
 .gostdoc-eng::before {
   content: url(../assets/img/usa1.png);
+  margin-right: 5px;
 }
 
 .doctype-doc {
@@ -323,7 +325,7 @@ text-decoration: none;
 }
 
 .order-doc::before{
-
+  margin-right: 5px;
   content: url(../assets/img/russ1.png);
 
 }
@@ -456,6 +458,12 @@ margin-right: 35px;
   .container {
     width: 100%;
 }
+
+.square {
+  margin-left: auto;
+  margin-right: auto;
+}
+
 
 }
 
