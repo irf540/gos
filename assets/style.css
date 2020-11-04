@@ -160,6 +160,50 @@ display: flex;
 }
 
 
+/**************************************
+***********Documents*********************
+**************************************/
+
+.background-doc {
+  position: relative;
+  background-color: #ebebeb;
+  border-radius: 10px;
+  width: 246px;
+  height: 358px;
+}
+
+.document {
+    width: 228px;
+    height: 337.41px;
+    position: absolute;
+    z-index: 100;
+    top: 10px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.status-doc {
+  font-weight: 500;
+  font-style: normal;
+  font-size: 13px;
+  color: #61B421;
+}
+
+.info-doc {
+  font-weight: 700;
+  font-style: normal;
+  font-size: 13px;
+  color: #ebebeb;
+  
+}
+
+.date-doc {
+  font-weight: 600;
+  font-style: normal;
+  font-size: 13px;
+  color: #333333 !important;
+}
+
 
 /*******************************      MEDIA       ***********************/
 
