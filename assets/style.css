@@ -313,6 +313,58 @@ text-decoration: none;
   background: #000080;
   opacity: 0.3;
 }
+
+
+.order-doc {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 13px;
+  margin-bottom: 37px;
+}
+
+.order-doc::before{
+
+  content: url(../assets/img/russ1.png);
+
+}
+
+.apparea-ru {
+  font-weight: 400;
+  font-style: normal;
+  font-size: 13px;
+  color: #333333;
+  display: flex;
+  margin-bottom: 19px;
+}
+
+.apparea-ru::before {
+  content: url(../assets/img/russ1.png);
+  margin-right: 5px;
+
+}
+
+.apparea-eng {
+  font-weight: 400;
+  font-style: normal;
+  font-size: 13px;
+  color: #333333;
+  display: flex;
+  margin-bottom: 37px;
+}
+
+.apparea-eng::before {
+  content: url(../assets/img/usa1.png);
+  margin-right: 5px;
+
+}
+
+
+.section-doc {
+  font-style: normal;
+  font-weight: 800;
+  font-size: 13px;
+  color: #333333;
+}
 /*******************************      MEDIA       ***********************/
 
 /*******************************      LG       ***********************/
