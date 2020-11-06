@@ -159,6 +159,63 @@ display: flex;
   text-align: center;
 }
 
+.container-bg {
+  background: #0D183F;
+}
+
+.services {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.custom-service {
+  font-weight: 800;
+  font-style: normal;
+  font-size: 18px;
+  color: #868B9F;
+  margin-top: 75px;
+  margin-bottom: 12px;
+}
+
+.custom-service::before {
+  content: url(../assets/img/customer-service.png);
+  margin-right: 5px;
+}
+
+.remote-service {
+  font-weight: 800;
+  font-style: normal;
+  font-size: 18px;
+  color: #868B9F;
+  margin-top: 75px;
+  margin-bottom: 12px;
+}
+
+.remote-service::before {
+  content: url(../assets/img/remote-service.png);
+  margin-right: 5px;
+}
+
+.service-content {
+  font-weight: 600;
+  font-style: normal;
+  font-size: 14px;
+  color: #fff;
+  width: 379px;
+  margin-bottom: 13px;
+}
+
+.service-number {
+  font-weight: 800;
+  font-style: normal;
+  font-size: 16px;
+  color: #FF8C00;
+}
+
+.button-service {
+  margin-bottom: 100px;
+}
 
 /**************************************
 ***********Documents*********************
@@ -296,18 +353,24 @@ text-decoration: none;
 
 
 
-.backet-doc {
-  width: 148px;
-  height: 50px;
-  border-radius: 50px;
-  background: #FF8C00;
+.btn-secondary { 
+  font-weight: 500; 
+  font-size: 14px; 
+  letter-spacing: 0.01em; 
+  color: white; 
+  background: darkblue; 
+  background: #FF8C00; 
+  border-radius: 50px; 
+  padding: 17px 28px;
+  transition: all 0.3s; 
   border: none;
-  font-weight: 500;
-  font-style: normal;
-  font-size: 14px;
-  color: #fff;
-  margin-top: 30px;
-}
+  margin-top: 20px;
+} 
+.btn-secondary:hover { 
+  background: #080080; 
+  transition: all 0.3s; 
+  color: #ffff; 
+} 
 
 .hr-doc {
   width: 80%;
@@ -367,6 +430,143 @@ text-decoration: none;
   font-size: 13px;
   color: #333333;
 }
+
+
+
+/**************************************
+***********Footer*********************
+**************************************/
+
+.footer {
+  background: #FAFAFA;
+}
+
+.footer-head {
+  border-bottom: 1px solid #D0D0D0;
+  padding-top: 45px;
+  padding-bottom: 45px;
+
+}
+
+.footer-logo {
+  display: flex;
+}
+
+.download-req {
+  font-weight: 400;
+  font-style: normal;
+  font-size: 13px;
+  color: #272727;
+  display: flex;
+  align-items: center;
+}
+
+.download-req:hover {
+  text-decoration: none;
+}
+
+.download-req::before {
+  content: url(../assets/img/download-req.png);
+
+}
+
+.footer-conf {
+  font-weight: 400;
+  font-style: normal;
+  font-size: 13px;
+  color: #272727;
+  margin-top: 10px;
+}
+
+.footer-soc {
+  display: block;
+  margin-top: 25px;
+}
+
+
+.work-time {
+  font-weight: 400;
+  font-size: 14px;
+  font-style: normal;
+  color: #272727;
+  display: flex;
+  align-items: center;
+}
+
+.work-time::before {
+  content: url(../assets/img/work-time.png);
+  margin-right: 10px;
+}
+
+.work-email {
+  font-weight: 400;
+  font-size: 14px;
+  font-style: normal;
+  color: #272727;
+  display: flex;
+  align-items: center;
+  margin-top: 15px;
+}
+
+.work-email::before {
+  content: url(../assets/img/email.png);
+  margin-right: 10px;
+}
+
+.work-number {
+  font-weight: 400;
+  font-size: 14px;
+  font-style: normal;
+  color: #272727;
+  display: flex;
+  align-items: center;
+  margin-top: 15px;
+}
+
+.work-number::before {
+  content: url(../assets/img/call.png);
+  margin-right: 10px;
+}
+
+
+
+.footer-border-right {
+  border-right: 1px solid #D0D0D0;
+}
+
+.footer-border-left {
+  border-left: 1px solid #D0D0D0;
+}
+
+.adress-w, .contacts-w {
+  max-width: 296px;
+  margin: auto;
+}
+
+
+.office-city {
+  font-weight: 700;
+  font-style: normal;
+  font-size: 14px;
+  margin-top: 35px;
+  margin-bottom: 10px;
+}
+
+.office-adress {
+  font-weight: 400;
+  font-style: normal;
+  font-size: 14px;
+  margin-bottom: 30px;
+  max-width: 279px;
+}
+
+.footer-end {
+  margin-top: 35px;
+  padding-bottom: 35px;
+}
+
+
+
 /*******************************      MEDIA       ***********************/
 
 /*******************************      LG       ***********************/
@@ -381,6 +581,10 @@ text-decoration: none;
   justify-content: flex-start;
   margin-top: 21px;
   margin-bottom: 22px;
+}
+
+.footer-border-left {
+  border: none;
 }
 
 }
@@ -431,6 +635,12 @@ p {
 margin-right: 35px;
 }
 
+.footer-soc {
+
+  margin-bottom: 25px;
+ 
+}
+
 }
 
 /*******************************      XS       ***********************/
@@ -464,6 +674,13 @@ margin-right: 35px;
   margin-right: auto;
 }
 
+.footer-border-right {
+border: none;
+}
+
+.footer-logo {
+  margin-bottom: 25px;
+}
 
 }
 
