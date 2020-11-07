@@ -264,6 +264,43 @@ display: flex;
   margin-bottom: 100px;
 }
 
+.form-block {
+  display: flex;
+  width: 546px;
+  height: 239px;
+  background: #F3F3F3;
+  border-radius: 10px;
+}
+
+
+.form-1 {
+  display: block;
+  width: 250px;
+}
+
+.form-2 {
+  display: block;
+  width: 250px;
+}
+
+.form-input {
+  width: 225px;
+  height: 39px;
+  border: 1px solid rgba(0, 0, 128, 0.4);
+  border-radius: 50px;
+  background: none;
+}
+
+.form-area {
+  width: 225px;
+  height: 83px;
+  border: 1px solid rgba(0, 0, 128, 0.4);
+  border-radius: 10px;
+  background: none;
+  resize: none;
+}
+
+
 /**************************************
 ***********Documents*********************
 **************************************/
